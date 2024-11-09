@@ -1,5 +1,5 @@
 project_name = "aca-ecs-cluster"
-region = "us-east-1"
+region       = "us-east-1"
 
 ######## SSM VPC Parameters ########
 
@@ -14,7 +14,7 @@ ssm_private_subnet_3 = "/aca-vpc/vpc/subnet_private_1c"
 ######### Balancer ########
 
 load_balancer_internal = false
-load_balancer_type = "application"
+load_balancer_type     = "application"
 
 ######## ECS General #########
 
